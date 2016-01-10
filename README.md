@@ -2,8 +2,8 @@ Nettside for Mariette og Hans Christians bryllup.
 [plunun.github.io](http://plunun.github.io)
 
 Krav til nettside:
-	Fransk og norsk
-	- Done!
+  - Fransk og norsk
+    - Done!
 
 
 
