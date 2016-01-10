@@ -1,4 +1,4 @@
-Nettside for Mariette og Hans Christians bryllup[link](http://plunun.github.io)
+Nettside for Mariette og Hans Christians bryllup    [link](http://plunun.github.io)
 
 Krav til nettside:
 	Fransk og norsk
