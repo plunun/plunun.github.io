@@ -3,20 +3,19 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   .jumbotron {
+      padding-bottom: 100px;
+      /*padding-right: 40%; */
+       position: relative;
+       background: #EEE url("../img/background.png") center;
+       width: 100%;
+       height: 100%;
+       /*max-height: 400px;*/
+       background-size: cover;
+       overflow: hidden;
+   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.jumbotron,h1{
+  color: #EEE;
+  box-shadow: #DDD;
+}
