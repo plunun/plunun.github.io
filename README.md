@@ -9,7 +9,6 @@ Krav til nettside:
   - Timeplan
   - Værmelding
   - Kleskode
-  - Værmelding
   - Kart
     - Tinghuset
     - Haukeli
