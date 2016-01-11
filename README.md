@@ -3,7 +3,16 @@
 
 Krav til nettside:
   - ~~Fransk og norsk~~
-    - Done!
+  - ~~Informasjon~~
+    - Noe mer som mangler?
+      - Fransk
+  - Timeplan
+  - Værmelding
+  - Kleskode
+  - Værmelding
+  - Kart
+    - Tinghuset
+    - Haukeli
 
 Timeplan
 
