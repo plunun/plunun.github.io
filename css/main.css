@@ -1,5 +1,3 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -42,8 +40,8 @@
   bottom: 0;
   position: absolute;
   content: " ";
-  width: 3px;
-  background-color: #eeeeee;
+  width: 2px;
+  background-color: #A2A2A2;
   left: 0%;
   margin-left: -1.5px;
 }
@@ -177,4 +175,11 @@
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+.timeline{
+background-color:#FAFAFA;
+}
+.agenda {
+}
+hr { 
 }
