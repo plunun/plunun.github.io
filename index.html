@@ -24,16 +24,33 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
-    <body>
-
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <body style="padding-top: 70px">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="#">Home</a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="topFixedNavbar1">
+          <ul class="nav navbar-nav">
+    		<!-- <li class="active"><a href="#">Link<span class="sr-only">(current)</span></a></li> -->
+            <li><a href="#info">Info</a></li>     
+            <li><a href="#weather">Værmelding</a></li>
+          </ul>
+    </div>
+<!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    
+<!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <div class="norsk">
         <h1> <a href="index.html">Mariette og Hans Christian</a> </h1>
             <p>Vi skal gifte oss, og dette er en internettside til dere inviterte.<br> Her er det litt enkel og praktisk informasjon.</p>
-          </div>
+        </div>
           <div class="fransk">
             <h1><a href="index.html">Mariette et Hans Christian</a><span class="
 glyphicon glyphicon-heart"/></h1>
@@ -50,7 +67,7 @@ glyphicon glyphicon-heart"/></h1>
           </div>
       </div>
     </div>
-<div class="container">
+<div class="container" id="info">
 <div class="col-md-12">
 	<div class="norsk">
       <!--Skriv Norsk html her-->
@@ -76,6 +93,13 @@ Vi kommer ikke til å ha kleskoder som et tradisjonelt bryllup, men om dere vil 
 </div>
 <div class="col-md-4">
 <!-- 2. Kolonne -->
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
 <h2> Ønskeliste </h2>
 <p> Blahblahblah</p>
 
@@ -90,7 +114,7 @@ Vi kommer ikke til å ha kleskoder som et tradisjonelt bryllup, men om dere vil 
 
 <h2>Kart</h2>
 <p>Kart?</p>
-
+</div>
 </div>
     </div>
     <div class="fransk">
@@ -99,18 +123,15 @@ Vi kommer ikke til å ha kleskoder som et tradisjonelt bryllup, men om dere vil 
 </div>
 <div class="container">
 	<div class="col-md-12">
-    <div class="col-md-6">
+    <div class="col-md-6" id="weather">
         <h2>Haugesund</h2>
-        <h3>~~~Kart her~~~<h3>
-        <h3>~~~Værvarsel her~~~<h3>
-
+        <h3>~~~Kart her~~~</h3>
+<script src="http://www.yr.no/place/Norway/Rogaland/Haugesund/Haugesund/external_box_three_days.js"></script><noscript><a href="http://www.yr.no/place/Norway/Rogaland/Haugesund/Haugesund/">yr.no: Forecast for Haugesund</a></noscript>
 	</div>
     <div class="col-md-6">
-            <h2>Haukeli</h2>
-            <h3>~~~Kart her~~~<h3>
-        <script src="http://www.yr.no/sted/Norge/Telemark/Vinje/Botn_skysstasjon/ekstern_boks_tre_dager.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Telemark/Vinje/Botn_skysstasjon/">yr.no: Værvarsel for Botn skysstasjon</a></noscript>
-
-    
+      <h2>Haukeli</h2>
+            <h3>~~~Kart her~~~</h3>
+      <script src="http://www.yr.no/sted/Norge/Telemark/Vinje/Botn_skysstasjon/ekstern_boks_tre_dager.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Telemark/Vinje/Botn_skysstasjon/">yr.no: Værvarsel for Botn skysstasjon</a></noscript>
     </div>
 	<hr>
 </div>
@@ -264,7 +285,7 @@ Vi kommer ikke til å ha kleskoder som et tradisjonelt bryllup, men om dere vil 
   </div>
 <div class="container">
 				<hr>
-            </div>
+    </div>
             <div class="container">
           <div class="col-md-12">
             <div class="norsk">
@@ -278,11 +299,11 @@ Vi kommer ikke til å ha kleskoder som et tradisjonelt bryllup, men om dere vil 
             </div>
 </div>
 </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
