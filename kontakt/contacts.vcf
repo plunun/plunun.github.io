@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Hans Christian Nordtveit Kvernenes
+N:Kvernenes;Hans;Christian Nordtveit;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:Nordtveitkvernenes@gmail.com
+EMAIL;TYPE=INTERNET;TYPE=HOME:Plunun@gmail.com
+EMAIL;TYPE=INTERNET:hkv002@uib.no
+X-SKYPE:hanscnk
+TEL;TYPE=HOME:+47 91872526
+ADR;TYPE=HOME:;Laksevåg;Kringsjåveien 17;;;5162;Norway
+ORG:UiB
+item1.URL:hansmariette.tk
+item1.X-ABLabel:PROFILE
+END:VCARD
