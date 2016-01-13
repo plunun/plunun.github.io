@@ -186,3 +186,9 @@ background-color:#FAFAFA;
 
 	}
 }
+
+@media (max-width: 500px){
+	.jumbotron{
+		padding-bottom: 10px;
+	}
+}
