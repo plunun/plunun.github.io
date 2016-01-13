@@ -179,3 +179,10 @@
 .timeline{
 background-color:#FAFAFA;
 }
+
+@media (min-width:1200px){
+	.jumbotron{
+		      padding-bottom: 400px;
+
+	}
+}
